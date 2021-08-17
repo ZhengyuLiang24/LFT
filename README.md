@@ -31,6 +31,7 @@
 <p align="center"> <img src="Figs/LFT_Efficiency.png" width="60%"> </p>
 
 * **Angular Consistency**
+<p align="center"> <a href="https://wyqdatabase.s3.us-west-1.amazonaws.com/LFT_video.mp4"><img src="Figs/LFT_Video.png" width="80%"></a> </p>
 
 * **Ablation Studies**
 <p align="center"> <img src="Figs/LFT_ablation.png" width="60%"> </p>
