@@ -53,6 +53,10 @@ class Logger(object):
 
 
 def cal_metrics(args, label, out):
+    if len(label.size()) == 2:
+        label = rearrange(label, '(a1 h) (a2 w) -> 1 1 a1 h a2 w', a1=args.angRes, a2=args.angRes)
+        out = rearrange(out, '(a1 h) (a2 w) -> 1 1 a1 h a2 w', a1=args.angRes, a2=args.angRes)
+        
     if len(label.size()) == 4:
         [B, C, H, W] = label.size()
         label = label.view((B, C, args.angRes, H//args.angRes, args.angRes, H//args.angRes))
