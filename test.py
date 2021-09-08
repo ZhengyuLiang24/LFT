@@ -98,7 +98,7 @@ def test(test_loader, device, net):
         Sr_4D_y = LFintegrate(subLFout, args.angRes, args.patch_size_for_test * args.scale_factor,
                               args.stride_for_test * args.scale_factor, h0 * args.scale_factor,
                               w0 * args.scale_factor)
-        Sr_SAI_y = Sr_4D_y.permute(0, 2, 1, 3).reshape((1, h0 * args.angRes * args.scale_factor,
+        Sr_SAI_y = Sr_4D_y.permute(0, 2, 1, 3).reshape((h0 * args.angRes * args.scale_factor,
                                                         w0 * args.angRes * args.scale_factor))
 
         psnr, ssim = cal_metrics(args, Hr_SAI_y, Sr_SAI_y)
