@@ -64,8 +64,7 @@ def main(args):
             psnr_epoch_test, ssim_epoch_test = test(test_loader, device, net)
             psnr_testset.append(psnr_epoch_test)
             ssim_testset.append(ssim_epoch_test)
-            logger.log_string('The %dth Test on %s, psnr/ssim is %.2f/%.3f' % (
-                start_epoch, test_name, psnr_epoch_test, ssim_epoch_test))
+            logger.log_string('Test on %s, psnr/ssim is %.2f/%.3f' % (test_name, psnr_epoch_test, ssim_epoch_test))
             pass
         pass
     pass
