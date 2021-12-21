@@ -51,7 +51,7 @@
 <p align="center"> <img src="https://raw.github.com/ZhengyuLiang24/LFT/main/Figs/LFT_Qualitative.png" width="60%"> </p>
 
 * **Angular Consistency**
-<p align="center"> <a href="https://wyqdatabase.s3.us-west-1.amazonaws.com/LFT_video.mp4"><img src="Figs/LFT_video.png" width="60%"></a> </p>
+<p align="center"> <a href="https://wyqdatabase.s3.us-west-1.amazonaws.com/LFT_video.mp4"><img src="https://raw.github.com/ZhengyuLiang24/LFT/main/Figs/LFT_video.png" width="60%"></a> </p>
 
 
 * **Spatial-Aware Angular Modeling**
