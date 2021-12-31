@@ -31,10 +31,10 @@
 * **Run **`test.py`** to perform network inference. Example for test LFT on 5x5 angular resolution for 4x/2xSR:**
   ```
   python test.py --model_name LFT --angRes 5 --scale_factor 4 \
-  --use_pre_pth True --path_pre_pth './pth/LFT_5x5_4x_epoch_50_model.pth
+  --use_pre_pth True --path_pre_pth './pth/LFT_5x5_4x_epoch_50_model.pth'
 
   python test.py --model_name LFT --angRes 5 --scale_factor 2 \
-  --use_pre_pth True --path_pre_pth './pth/LFT_5x5_2x_epoch_50_model.pth
+  --use_pre_pth True --path_pre_pth './pth/LFT_5x5_2x_epoch_50_model.pth'
   ```
 * **The PSNR and SSIM values of each dataset will be saved to **`./log/`**.**
 <br><br>
