@@ -2,8 +2,8 @@
 #### PyTorch implementation of "*Light Field Image Super-Resolution with Transformers*", arXiv 2021. [<a href="https://arxiv.org/abs/2108.07597">pdf</a>].<br><br>
 
 ## Contributions:
-* **We make the first attempt to adapt Transformers to LF image processing, and propose a Transformer-based network for LF image SR.** 
-* **We propose a novel paradigm (i.e., angular and spatial Transformers) to incorporate angular and spatial information in an LF.** 
+* **We make the first attempt to adapt Transformers to LF image processing, and propose a Transformer-based network for LF image SR.**
+* **We propose a novel paradigm (i.e., angular and spatial Transformers) to incorporate angular and spatial information in an LF.**
 * **With a small model size and low computational cost, our LFT achieves superior SR performance than other state-of-the-art methods.**
 <br><br>
 
@@ -30,10 +30,10 @@
 * **Run **`Generate_Data_for_Test.m`** to generate test data. The generated data will be saved in **`./data_for_test/`** (SR_5x5_2x, SR_5x5_4x).**
 * **Run **`test.py`** to perform network inference. Example for test LFT on 5x5 angular resolution for 4x/2xSR:**
   ```
-  python test.py --model_name LFT --angRes 5 --scale_factor 4 \ 
+  python test.py --model_name LFT --angRes 5 --scale_factor 4 \
   --use_pre_pth True --path_pre_pth './pth/LFT_5x5_4x_epoch_50_model.pth
-  
-  python test.py --model_name LFT --angRes 5 --scale_factor 2 \ 
+
+  python test.py --model_name LFT --angRes 5 --scale_factor 2 \
   --use_pre_pth True --path_pre_pth './pth/LFT_5x5_2x_epoch_50_model.pth
   ```
 * **The PSNR and SSIM values of each dataset will be saved to **`./log/`**.**
@@ -67,7 +67,7 @@
     title     = {Light Field Image Super-Resolution with Transformers},
     journal   = {arXiv preprint},
     month     = {August},
-    year      = {2021},   
+    year      = {2021},
 }
 
 ```
