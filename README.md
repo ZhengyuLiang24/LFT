@@ -1,5 +1,7 @@
 ## LFT
 #### PyTorch implementation of "*Light Field Image Super-Resolution with Transformers*", arXiv 2021. [<a href="https://arxiv.org/abs/2108.07597">pdf</a>].<br><br>
+<p align="center"> <img src="https://raw.github.com/ZhengyuLiang24/LFT/main/Figs/LFT_overview.png" width="100%"> </p>
+
 
 ## Contributions:
 * **We make the first attempt to adapt Transformers to LF image processing, and propose a Transformer-based network for LF image SR.**
