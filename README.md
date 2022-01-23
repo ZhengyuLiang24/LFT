@@ -1,5 +1,5 @@
 ## LFT
-#### PyTorch implementation of "*Light Field Image Super-Resolution with Transformers*", arXiv 2021. [<a href="https://arxiv.org/abs/2108.07597">pdf</a>].<br><br>
+#### PyTorch implementation of "*Light Field Image Super-Resolution with Transformers*", IEEE SPL 2022. [<a href="https://arxiv.org/abs/2108.07597">pdf</a>].<br><br>
 <p align="center"> <img src="https://raw.github.com/ZhengyuLiang24/LFT/main/Figs/LFT_overview.png" width="100%"> </p>
 
 
@@ -50,14 +50,14 @@
 <p align="center"> <img src="https://raw.github.com/ZhengyuLiang24/LFT/main/Figs/LFT_Efficiency.png" width="60%"> </p>
 
 * **Visual Comparisons**
-<p align="center"> <img src="https://raw.github.com/ZhengyuLiang24/LFT/main/Figs/LFT_Qualitative.png" width="60%"> </p>
+<p align="center"> <img src="https://raw.github.com/ZhengyuLiang24/LFT/main/Figs/LFT_Qualitative.png" width="100%"> </p>
 
 * **Angular Consistency**
-<p align="center"> <a href="https://wyqdatabase.s3.us-west-1.amazonaws.com/LFT_video.mp4"><img src="https://raw.github.com/ZhengyuLiang24/LFT/main/Figs/LFT_video.png" width="60%"></a> </p>
+<p align="center"> <a href="https://wyqdatabase.s3.us-west-1.amazonaws.com/LFT_video.mp4"><img src="https://raw.github.com/ZhengyuLiang24/LFT/main/Figs/LFT_video.png" width="80%"></a> </p>
 
 
 * **Spatial-Aware Angular Modeling**
-<p align="center"> <img src="https://raw.github.com/ZhengyuLiang24/LFT/main/Figs/LFT_attmap.png" width="60%"> </p>
+<p align="center"> <img src="https://raw.github.com/ZhengyuLiang24/LFT/main/Figs/LFT_attmap.png" width="80%"> </p>
 <br>
 
 
@@ -67,9 +67,8 @@
 @Article{LFT,
     author    = {Liang, Zhengyu and Wang, Yingqian and Wang, Longguang and Yang, Jungang and Zhou, Shilin},
     title     = {Light Field Image Super-Resolution with Transformers},
-    journal   = {arXiv preprint},
-    month     = {August},
-    year      = {2021},
+    journal   = {IEEE Signal Processing Letters},
+    year      = {2022},
 }
 
 ```
